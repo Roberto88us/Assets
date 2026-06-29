@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250">
+<g fill="none">
+<path d="M70 55c-44 0-72 34-72 72 0 41 30 68 64 68 20 0 36-9 44-24 8 15 24 24 44 24 34 0 64-27 64-68 0-38-28-72-72-72-19 0-35 8-44 22-9-14-25-22-44-22z" fill="#7fd1c4"/>
+<circle cx="70" cy="127" r="20" fill="#082a3c"/>
+<circle cx="150" cy="127" r="20" fill="#082a3c"/>
+</g>
+<text x="210" y="160" font-family="Georgia,'Times New Roman',serif" font-size="120" fill="#f7f3ec">Med<tspan fill="#7fd1c4">Blue</tspan></text>
+</svg>
