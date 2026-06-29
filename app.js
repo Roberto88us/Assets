@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: "Who is it for?",
-    a: "MedBlue is built for self-employed and underinsured people in Houston — gig workers, freelancers, independent contractors, tradespeople, restaurant owners, realtors, and the families who count on them. If you don't have a group plan waiting for you, this is for you.",
+    a: "MedBlue is built for self-employed and underinsured people in Miami — gig workers, freelancers, independent contractors, tradespeople, restaurant owners, realtors, and the families who count on them. If you don't have a group plan waiting for you, this is for you.",
   },
   {
     q: "How do I talk to a doctor?",
@@ -214,10 +214,9 @@ const io = new IntersectionObserver(
 );
 document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
 
-// ---- Header, sticky mobile bar & floating CTA on scroll ----
+// ---- Header & sticky mobile bar on scroll ----
 const header = document.getElementById("site-header");
 const mobileBar = document.getElementById("mobile-bar");
-const floatCta = document.getElementById("float-cta");
 
 function onScroll() {
   const y = window.scrollY;
@@ -231,10 +230,6 @@ function onScroll() {
 
   const past = y > window.innerHeight * 0.6;
   mobileBar.classList.toggle("translate-y-full", !past);
-
-  floatCta.classList.toggle("opacity-0", !past);
-  floatCta.classList.toggle("pointer-events-none", !past);
-  floatCta.classList.toggle("opacity-100", past);
 }
 window.addEventListener("scroll", onScroll, { passive: true });
 onScroll();
